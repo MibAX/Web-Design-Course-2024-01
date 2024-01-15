@@ -1,6 +1,5 @@
-*{
-text-align: center;
-
+#simple-paragraph{
+    background-color: blanchedalmond;
 }
 
 body{
@@ -17,6 +16,7 @@ h1{
     background-color: green;
 }
 
-#simple-paragraph{
-    background-color: blanchedalmond;
-}
+
+*{
+    text-align: center;    
+    }

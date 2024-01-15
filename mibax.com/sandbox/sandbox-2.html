@@ -36,22 +36,59 @@
         <br>
         <hr>
 
-        <label for="gender">
-            Your Gender
-        </label>
+        <h5>Your Gender</h5>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+
         <br>
-        <label for="male">
-            Male
-        </label>
-        <input type="radio" id="male">
+        <hr>
 
-        <label for="famale">
-            Female
-        </label>
-        <input type="radio" id="female">
+        <h5>which course do you want to enroll in</h5>
 
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" name="course">
 
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" name="course">
+
+        <label for="bootstrap">Bootstrap</label>
+        <input type="checkbox" id="bootstrap" name="course">
+
+        <br>
+        <hr>
+        <input type="submit">
     </form>
+
+    <br>
+    <hr>
+
+    <!-- here comes the videos -->
+
+
+    <h4>local video with child source tag</h4>
+    <video width="320" height="240" controls>
+        <source src="/sandbox/sandbox-assets/sandbox-videos/fatiha.mp4" type="video/mp4">
+    </video>
+
+    <!-- vs code's way of doing it  -->
+    <h4>local video with src attribute </h4>
+    <video width="320" height="240" src="/sandbox/sandbox-assets/sandbox-videos/fatiha.mp4" autoplay muted
+        controls></video>
+
+    <br>
+    <hr>
+
+    <h4>This is a YouTube video</h4>
+
+    <div style="text-align: center; background-color: yellow;">
+        <iframe width="320" height="240" src="https://www.youtube.com/embed/meQsEM3V2m8?si=xR1ZbAND6d1PZOPb">
+        </iframe>
+    </div>
+
 
 </body>
 
