@@ -1,0 +1,22 @@
+*{
+text-align: center;
+
+}
+
+body{
+    background-color: brown;
+}
+
+h1{
+    background-color: orange;
+    color: blue;
+}
+
+
+.green-bg{
+    background-color: green;
+}
+
+#simple-paragraph{
+    background-color: blanchedalmond;
+}
