@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Length Units</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>CSS Length Units</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Unit</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>px</td>
+                <td>Absolute unit, representing one pixel on the screen.</td>
+            </tr>
+            <tr>
+                <td>rem</td>
+                <td>Relative to the font-size of the root element (usually the `<html>` element). If the root font size
+                    is 16px, 1rem is equal to 16px.</td>
+            </tr>
+            <tr>
+                <td>%</td>
+                <td>Percentage relative to the parent element. For example, if a parent element has a width of 200px,
+                    setting a child element's width to 50% would make it 100px.</td>
+            </tr>
+            <tr>
+                <td>em</td>
+                <td>Relative to the font-size of the element itself. If the font size of the element is 16px, 1em is
+                    equal to 16px.</td>
+            </tr>
+            <tr>
+                <td>vw</td>
+                <td>Equal to 1% of the viewport width. If the viewport width is 1000px, 1vw is equal to 10px.</td>
+            </tr>
+            <tr>
+                <td>vh</td>
+                <td>Equal to 1% of the viewport height. If the viewport height is 800px, 1vh is equal to 8px.</td>
+            </tr>
+            <tr>
+                <td>vmin</td>
+                <td>Equal to the smaller of vw or vh. It represents 1% of the smaller dimension of the viewport.</td>
+            </tr>
+            <tr>
+                <td>vmax</td>
+                <td>Equal to the larger of vw or vh. It represents 1% of the larger dimension of the viewport.</td>
+            </tr>
+            <tr>
+                <td>ex</td>
+                <td>Relative to the x-height of the current font. It is seldom used.</td>
+            </tr>
+            <tr>
+                <td>ch</td>
+                <td>Relative to the width of the "0" (zero) glyph in the current font.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
